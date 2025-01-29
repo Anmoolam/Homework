@@ -1,1 +1,30 @@
+Exercise 1 
+Part A
+question 4 : 
+I commented on j.a commit PR #26
 
+question 5 : 
+It says that my balance is is 50000000000000000 Wei, which is correct because I had 0.05 Eth 
+
+Part B 
+
+The SPDX (Software Package Data Exchange) initiative, maintained by the Linux Foundation, is a standard designed to simplify the identification and management of open-source software licenses. By providing unique identifiers for each license, SPDX ensures consistency in software projects, making it easier for developers and organizations to comply with licensing requirements. This initiative also helps automate the detection of software licenses, reducing legal risks and improving transparency in open-source collaborations. In Solidity, SPDX identifiers are commonly used in smart contracts, such as in // SPDX-License-Identifier: MIT, which specifies that the contract follows the MIT license, allowing free use with attribution.
+For a DeFi project that introduces an innovative staking and reward mechanism, the GNU General Public License v3 (GPLv3) is my choice. This license ensures that all modifications and derivatives of the project remain open-source, preventing companies from taking the code and making it proprietary. It encourages transparency and collaboration within the DeFi community.
+For Google Cloud Web3, the Apache License 2.0 is my choice choice because it allows both open-source and commercial use. This means developers can freely modify and share the code while companies like Google can still keep parts of their technology private. The license also protects against legal issues related to patents, so no one can later claim ownership over the shared code. This makes it a good option for businesses that want to promote innovation while protecting their work.
+
+Part C 
+
+A Virtual Machine (VM) is a software-based environment that simulates a physical computer, allowing code to run independently of the underlying hardware. In blockchain ecosystems, VMs execute smart contracts and enforce rules of the protocol. The Ethereum Virtual Machine (EVM) is the most widely used, providing a standardized environment for decentralized applications (dApps) across multiple blockchains. The Solana Virtual Machine (SVM), on the other hand, is optimized for high-performance execution, leveraging parallel processing for greater scalability.
+The Ethereum (EVM) developer community is significantly larger and more mature than the Solana (SVM) community. According to the Electric Capital Developer Report, Ethereum consistently leads in active developers, boasting over 5,000 monthly active contributors, while Solana has fewer but still a strong base of around 1,000 developers. EVM’s widespread adoption is reinforced by its compatibility with multiple Layer 2 solutions and other chains (e.g., Binance Smart Chain, Avalanche). This interoperability attracts both developers and projects, ensuring continuous innovation.
+Conversely, Solana's SVM community is known for its high efficiency and low-cost transactions, which appeal to developers focused on DeFi and NFT projects requiring high throughput. 
+Moreover, Ethereum sees a higher number of GitHub commits and open-source projects, indicating sustained development. Solana, while growing, has a smaller yet highly specialized community focused on performance optimizations.
+Finally, the EVM ecosystem is healthier in terms of developer activity, adoption, and interoperability, while the SVM ecosystem prioritizes performance and efficiency.
+
+Exerccise 2 :
+
+Part C 
+
+My contract address : 0x654fA9800849234B366c94e40d3D04AF0F129828. the screenshot for my address is in the Homework1 file "My contract address"
+
+I deployed Jinane Amal's contract, her address is : 0x49CFb4cdFB4E5C7f1D38DE111d0DBdeC79207F1C and it work well since when I put 1101 it gives me the result 13. 
+The sceenshot for her is in the Homework1 file "Jinane contract"
