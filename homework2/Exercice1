@@ -1,0 +1,18 @@
+The function selector for `HelloWorld(uint[], bool)` is derived by hashing the function signature using Keccak-256 and taking the **first 4 bytes**:
+
+Function Selector (first 4 bytes): `c157262b` 
+
+- `c157262b` → **Function Selector**
+- `0000000000000000000000000000000000000000000000000000000000000020` → **Memory location of `uint[]`**
+- `0000000000000000000000000000000000000000000000000000000000000001` → **Boolean `true`**
+- `0000000000000000000000000000000000000000000000000000000000000002` → **Length of `uint[]` (2 elements)**
+- `00000000000000000000000000000000000000000000000000000000000007c9` → **1993**
+- `00000000000000000000000000000000000000000000000000000000000007ca` → **1994**
+
+   4 + 32 + 32 + 32 + 2*32 = 164 bytes
+  The compact encoding using `abi.encodePacked()` (removing padding and memory locations): c157262b7c97ca1
+
+- `c157262b` → **Function Selector**
+- `7c9` → **1993**
+- `7ca` → **1994**
+- `1` → **Boolean `true`**
